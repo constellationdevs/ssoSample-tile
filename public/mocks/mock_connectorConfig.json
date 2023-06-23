@@ -1,0 +1,9 @@
+[
+  {
+    "ConnectorName": "SSOConnector",
+    "ConnectorMethod": "GetToken",
+    "ConnectorVersion": "1.0",
+    "RequestMethod": "POST",
+    "ConnectorURL": "http://localhost:8080/externalConnector/SSOConnector/1.0/GetToken"
+  }
+]
