@@ -13,9 +13,12 @@ This tile is an example starting point for a member  - utilizing single sign on 
 
 ## How to deploy
 
-Ensure that the script and link tags in the index.html file between `<!-- LOCAL DEVELOPMENT ONLY -->` are removed or commented out before deploying the tile
-Upload the following files to the tile project in the portal:
+1. Ensure that the script and link tags in the index.html file between `<!-- LOCAL DEVELOPMENT ONLY -->` are removed or commented out before deploying the tile
+
+2. Upload the following files to the tile project in the portal:
 - tile.js
 - index.html
 - tilestrings-en.json
 - tileicon.png
+
+3. Make sure to add your new tile to the authenticated group via the "Add to Test CU's" button.
