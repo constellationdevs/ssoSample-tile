@@ -1,6 +1,6 @@
 # Getting Started: SSO Sample Test Tile
 
-This tile is an example starting point for a member  - utilizing single sign on to access a third-party site
+This tile is an example starting point for a member - utilizing single sign on to access a third-party site
 
 - Contains a function that calls a connector, gets the return, then calls openWebLink all in one
 
@@ -16,6 +16,7 @@ This tile is an example starting point for a member  - utilizing single sign on 
 1. Ensure that the script and link tags in the index.html file between `<!-- LOCAL DEVELOPMENT ONLY -->` are removed or commented out before deploying the tile
 
 2. Upload the following files to the tile project in the portal:
+
 - tile.js
 - index.html
 - tilestrings-en.json
