@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- DONT INCLUDE ON UPLOAD -->
+    <script src="https://assets.cdp.wiki/cdp_bundle.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://assets.cdp.wiki/cdp_defaultTheme.css?9"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="tile.css" />
+    <script src="tile.js"></script>
+    <!-- END DONT INCLUDE -->
+  </head>
+
+  <body>
+    <ons-navigator id="myNavigator" animation="slide" page="page1.html">
+    </ons-navigator>
+
+    <template id="page1.html">
+      <ons-page id="page1">
+        <div style="height: 100%; padding-top: 50%; text-align: center">
+          <ons-button onclick="tile.SSOClick()">SSO</ons-button>
+        </div>
+      </ons-page>
+    </template>
+
+    <template id="loading.html">
+      <ons-page id="loading">
+        <div
+          style="
+            height: 100%;
+            text-align: center;
+            background-color: #000000d9 !important;
+          "
+        >
+          <ons-progress-bar id="progress" indeterminate></ons-progress-bar>
+          <img src="loading.png" width="70%" />
+
+          <div style="text-align: center; padding: 18px">
+            <span style="color: white; font-size: 16px"
+              >Please hold while we send all your member data to google.</span
+            >
+          </div>
+          <div>
+            <ons-button onclick="tile.Reset()">Reset</ons-button>
+          </div>
+          <img src="wating.png" width="70%" />
+        </div>
+      </ons-page>
+    </template>
+  </body>
+</html>
